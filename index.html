@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titus Kipkoech | Portfolio</title>
+    <link rel="preload" href="images/koch.png" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/975c2bfdd7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoo.png" class="logo" alt="Titus Kipkoech Logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer & Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Titus Kipkoech</span></h1>
+                <p class="tagline">Crafting intuitive digital experiences with purpose</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/koech.jpg" alt="Titus Kipkoech Portrait">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        As a Bachelor of Science in Information Technology graduate from KCA University,
+                        I specialize in creating seamless digital solutions that bridge technology and user needs.
+                        My approach combines technical precision with creative vision to deliver impactful web experiences.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Core Competencies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>User-centered interface design and prototyping</li>
+                            <li><span>Web Development</span><br>Full-stack application development</li>
+                            <li><span>Responsive Design</span><br>Mobile-optimized web experiences</li>
+                            <li><span>Digital Branding</span><br>Visual identity and graphic solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Creating visually stunning and intuitive interfaces that enhance user engagement
+                        while maintaining brand consistency across all digital platforms.
+                    </p>
+                    <a href="#portfolio" class="service-link">View projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        Building robust, scalable web applications using modern frameworks and
+                        best practices in frontend and backend development.
+                    </p>
+                    <a href="#portfolio" class="service-link">View projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>
+                        Crafting seamless user journeys through research-driven design,
+                        interactive prototypes, and usability testing.
+                    </p>
+                    <a href="#portfolio" class="service-link">View projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Selected Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="iFixit Project">
+                    <div class="layer">
+                        <h3>iFixit Service Platform</h3>
+                        <p>An on-demand service connecting users with certified technicians for home repairs and maintenance.</p>
+                        <a href="#" aria-label="View iFixit project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="E-commerce Project">
+                    <div class="layer">
+                        <h3>E-Commerce Solution</h3>
+                        <p>Custom online shopping platform with inventory management and payment integration.</p>
+                        <a href="#" aria-label="View e-commerce project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="Dashboard Project">
+                    <div class="layer">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Data visualization tool for business intelligence and performance metrics.</p>
+                        <a href="#" aria-label="View dashboard project"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Explore More Projects</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Get In Touch</h1>
+                    <p><i class="fas fa-envelope"></i> tituskipkoech737@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +254 743 503 983</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com" aria-label="X (formerly Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://wa.me/254743503983" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-form">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                        <input type="tel" name="Phone" id="phone" placeholder="Your Phone Number">
+                        <textarea name="Message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                        <div id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> Titus Kipkoech. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Current year for footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Tab functionality
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXcZNkjLL1QzJ8s8PKnzUwk4Eau_7eoPPWNAK6DzUxEOG0b_rJN8_6pHAO_hpLfeBQWQ/exec'; // Replace with your URL
+    const form = document.forms['contact-form'];
+    const formMessage = document.getElementById('form-message');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        const submitBtn = form.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        fetch(scriptURL, {
+            method: 'POST',
+            body: new FormData(form)
+        })
+            .then(response => {
+                formMessage.textContent = 'Message sent successfully!';
+                formMessage.style.color = '#4cff00';
+                form.reset();
+                setTimeout(() => formMessage.textContent = '', 5000);
+            })
+            .catch(error => {
+                formMessage.textContent = 'Error sending message. Please try again.';
+                formMessage.style.color = '#ff0000';
+                console.error('Error!', error.message);
+            })
+            .finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Send Message';
+            });
+    });
+</script>
+
+</html>
